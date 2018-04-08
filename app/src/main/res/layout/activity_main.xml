@@ -24,6 +24,32 @@
         android:layout_marginTop="5dp"
         android:gravity="center"
         android:background="#F0E68C"
-        android:text="DaggerTest2"/>
+        android:text="Scope测试"/>
+
+    <TextView
+        android:id="@+id/test3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#F0E68C"
+        android:text="Dagger.android"/>
+    <TextView
+        android:id="@+id/test4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#F0E68C"
+        android:text="Dagger.android2"/>
+
+    <TextView
+        android:id="@+id/test5"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#F0E68C"
+        android:text="Dagger.android.Fragment"/>
 
 </LinearLayout>

@@ -9,11 +9,11 @@ package com.jackson.daggertest.utils; /**
  * @version 1.0.0
  * since 2018 03 21
  */
-public class Student {
+public class Master {
 
-    private String mess="Student的实例是注解方式注入的";
+    private String mess="Master的实例是注解方式注入的";
 
-    public Student(){
+    public Master(){
 
     }
 

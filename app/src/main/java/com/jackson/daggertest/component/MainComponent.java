@@ -3,10 +3,10 @@ package com.jackson.daggertest.component; /**
  * Copyright (c) 2018 JS Co.Ltd. All right reserved.
  */
 
+import com.jackson.daggertest.activity.DaggerTest2Activity;
 import com.jackson.daggertest.activity.Daggertest1Activity;
 import com.jackson.daggertest.module.MainModule;
-
-import javax.inject.Singleton;
+import com.jackson.daggertest.scopes.ActivitySingleton;
 
 import dagger.Component;
 
@@ -17,9 +17,10 @@ import dagger.Component;
  * @version 1.0.0
  *          since 2018 03 21
  */
-@Singleton
+@ActivitySingleton
 @Component(modules = MainModule.class)
 public interface MainComponent {
     void inject(Daggertest1Activity daggertest1Activity);
+    void inject(DaggerTest2Activity daggertest2Activity);
 }
 

@@ -1,4 +1,4 @@
-package com.jackson.daggertest.module; /**
+package com.jackson.daggertest.module.activity; /**
  * DaggerAndroidActModule  2018-04-02
  * Copyright (c) 2018 JS Co.Ltd. All right reserved.
  */
@@ -6,7 +6,7 @@ package com.jackson.daggertest.module; /**
 import android.app.Activity;
 
 import com.jackson.daggertest.activity.DaggerAndroidActivity;
-import com.jackson.daggertest.component.DaggerAndroidActSubComponent;
+import com.jackson.daggertest.component.activity.DaggerAndroidActSubComponent;
 import com.jackson.daggertest.utils.Student;
 
 import javax.inject.Singleton;

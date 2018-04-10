@@ -4,8 +4,9 @@ package com.jackson.daggertest.component; /**
  */
 
 import com.jackson.daggertest.MyApplication;
-import com.jackson.daggertest.module.AllActivitysModule;
+import com.jackson.daggertest.module.activity.AllActivitysModule;
 import com.jackson.daggertest.module.AppModule;
+import com.jackson.daggertest.module.fragment.AllFragmentsModule;
 
 import javax.inject.Singleton;
 
@@ -20,7 +21,7 @@ import dagger.android.AndroidInjectionModule;
  *          since 2018 03 30
  */
 @Singleton
-@Component(modules = {AndroidInjectionModule.class, AppModule.class, AllActivitysModule.class})
+@Component(modules = {AndroidInjectionModule.class, AppModule.class, AllActivitysModule.class, AllFragmentsModule.class})
 public interface AppComponent {
     void inject(MyApplication application);
 }

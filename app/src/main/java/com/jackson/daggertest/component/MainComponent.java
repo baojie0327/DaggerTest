@@ -11,7 +11,7 @@ import com.jackson.daggertest.scopes.ActivitySingleton;
 import dagger.Component;
 
 /**
- * class description here
+ * Dagger2的基本用法
  *
  * @author Jackson
  * @version 1.0.0

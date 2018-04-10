@@ -10,6 +10,9 @@ import com.jackson.daggertest.utils.Student;
 
 import javax.inject.Inject;
 
+/**
+ * Dagger-Android基本用法
+ */
 public class DaggerAndroidActivity extends BaseActivity {
 
     @Inject

@@ -16,6 +16,9 @@ import com.jackson.daggertest.utils.User1;
 
 import javax.inject.Inject;
 
+/**
+ * Dagger2的基本用法
+ */
 public class Daggertest1Activity extends AppCompatActivity {
 
     @Inject

@@ -14,7 +14,7 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * class description here
+ * Dagger2的基本用法
  * @author Jackson
  * @version 1.0.0
  * since 2018 03 21
@@ -26,18 +26,30 @@ public class MainModule {
 
     }
 
+    /**
+     * @Scope 用法
+     * @return
+     */
     @Provides
     @ActivitySingleton
     Student provideStudent(){
         return new Student();
     }
 
+    /**
+     * @Qualifier用法
+     * @return
+     */
     @Provides
     @MaleTeacher
     Teacher provideMaleTeacher(){
         return new Teacher("maleTeacher");
     }
 
+    /**
+     * @Qualifier用法
+     * @return
+     */
     @Provides
     @FemaleTeacher
     Teacher provideFemaleTeacher(){

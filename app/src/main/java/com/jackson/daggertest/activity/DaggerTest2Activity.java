@@ -11,6 +11,9 @@ import com.jackson.daggertest.utils.Student;
 
 import javax.inject.Inject;
 
+/**
+ * Scope的用法
+ */
 public class DaggerTest2Activity extends AppCompatActivity {
 
     @Inject

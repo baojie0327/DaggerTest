@@ -1,4 +1,4 @@
-package com.jackson.daggertest.component; /**
+package com.jackson.daggertest.component.activity; /**
  *   2018-04-02
  * Copyright (c) 2018 JS Co.Ltd. All right reserved.
  */

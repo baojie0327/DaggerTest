@@ -1,9 +1,9 @@
-package com.jackson.daggertest.module; /**
+package com.jackson.daggertest.module.activity; /**
  * DaggerAndroidActModule  2018-04-02
  * Copyright (c) 2018 JS Co.Ltd. All right reserved.
  */
 
-import com.jackson.daggertest.utils.Master;
+import com.jackson.daggertest.utils.Student;
 
 import dagger.Module;
 import dagger.Provides;
@@ -15,12 +15,12 @@ import dagger.Provides;
  * since 2018 04 02
  */
 @Module
-public abstract class DaggerAndroid2ActModule {
+public abstract class DaggerAndroidActproModule {
 
 
     @Provides
-    static Master provideMaster() {
-        return new Master();
+    static Student provideStudent() {
+        return new Student();
     }
 }
 
